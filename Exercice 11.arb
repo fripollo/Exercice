@@ -1,0 +1,15 @@
+puts"Quelle est ton année de naissance ?"
+le_Nombre = gets.chomp.to_i
+time = 0
+age = 2021 - le_Nombre
+
+
+i = 2021
+
+while i > le_Nombre
+    puts  le_Nombre += 1
+  
+    puts  "Il y a #{age -= 1} ans tu avais   #{time += 1} ans"
+
+   
+end

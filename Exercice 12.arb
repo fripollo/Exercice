@@ -1,0 +1,22 @@
+puts"Quelle est ton age"
+age = gets.chomp.to_i
+time = 0
+le_Nombre = 2021 - age
+
+
+i = 2021
+
+while i > le_Nombre
+    
+    age -= 1
+    time += 1
+    puts  le_Nombre += 1
+     
+
+    if(age == time)
+
+             
+        puts  "Il y a #{age } ans tu avais la moitié de l'âge que tu as aujourd'hui"
+    else puts  "Il y a #{age } ans tu avais   #{time} ans"
+      end
+end

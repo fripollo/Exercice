@@ -1,0 +1,3 @@
+puts"Salut c'est quo ton prénom ?"
+user_Name = gets.chomp
+puts"Bonjour #{user_Name}"
